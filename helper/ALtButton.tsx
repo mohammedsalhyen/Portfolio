@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 const ALtButton = ({ title, href }: any) => {
     const handleClick = () => {

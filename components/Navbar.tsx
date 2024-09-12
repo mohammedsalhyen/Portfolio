@@ -1,17 +1,10 @@
 import React from 'react'
 import { navbar_links } from '@/constant/index'
 import Link from 'next/link'
-import { motion } from 'framer-motion';
-import { navVariants } from '../utils/motion';
-const Navbar = ({cvUrl}:any) => {
+const Navbar = () => {
     return (
-        <motion.nav
-            variants={navVariants}
-            initial="hidden"
-            whileInView="show"
-            className=' py-3'
-        >
-            <div className=' container max-container mx-auto '>
+        <nav>
+            <div className=' container max-container mx-auto py-5 '>
                 <div className=' w-full padding-container 2xl:px-0  flex justify-between  '>
                     <div className='image-container md:w-36 xs:w-28 '>
                         <Link href="/">
@@ -28,11 +21,11 @@ const Navbar = ({cvUrl}:any) => {
                                 </li>
                             ))}
                         </ul>
-                        <a className='download-link' href={`https://cdn.sanity.io/files/yulhtqt2/production/${cvUrl}.pdf`}> Download CV</a>
+                        <a className='download-link' href={`/Mohammed-Abdelsalhyen-CV.pdf`}> Download CV</a>
                     </div>
                 </div>
             </div>
-        </motion.nav>
+        </nav>
     )
 }
 

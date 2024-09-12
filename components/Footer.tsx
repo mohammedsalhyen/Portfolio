@@ -1,20 +1,10 @@
-import { footerVariants, navVariants } from '@/utils/motion';
-import { motion } from 'framer-motion';
 import Link from 'next/link'
 import React from 'react'
 import { FaLinkedinIn, FaFacebookF, FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
     return (
-        <motion.footer 
-        variants={footerVariants}
-        initial="hidden"
-        whileInView="show" 
-        className=' footer-container main-prop relative overflow-hidden text-center h-full '>
-            <motion.div
-                    variants={navVariants}
-                    initial="hidden"
-                    whileInView="show"
-            className='h-full  flex-col flex-center transition-all'> 
+        <footer className=' footer-container main-prop relative overflow-hidden text-center h-full '>
+            <div className='h-full  flex-col flex-center transition-all'> 
                 <p className='h1-bold mt-20 mb-14'>
                     I can't wait to work together
                 </p>
@@ -28,8 +18,8 @@ const Footer = () => {
                     <a title='anchor to go to whatsapp' className='footer-icon' href='https://wa.me/201110948994' rel='noopener' target='_blank'><FaWhatsapp /></a>
                     <a title='anchor to go to linkedin' className='footer-icon' href='https://www.linkedin.com/in/mohammed-abdelsalhyen-sherief-8976441b8/' rel='noopener' target='_blank'><FaLinkedinIn/></a>
                 </div>
-            </motion.div>
-        </motion.footer>
+            </div>
+        </footer>
     )
 }
 
