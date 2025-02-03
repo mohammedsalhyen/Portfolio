@@ -15,7 +15,7 @@ const Hero = () => {
         { href: "https://wa.me/201110948994", icon: <FaWhatsapp />, text: "Whatsapp" }
     ];
     return (
-        <main className=' xs:px-5 xl:px-0 main-prop w-full border-b-2 border-[var(--border)]'>
+        <main className=' xs:px-5 lg:px-0 main-prop w-full border-b-2 border-[var(--border)]'>
             <div className=' max-container flex  xs:flex-col lg:flex-row  justify-between   '>
                 <div className=' flex-1 relative overflow-hidden xs:text-center lg:text-start'>
                     <div>
