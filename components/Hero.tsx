@@ -28,7 +28,7 @@ const Hero = () => {
                         </p>
                         <p className='sub-title pt-5 mb-6'>Front end Developer</p>
                     </div>
-                    <div className='flex sm:w-full lg:w-fit gap-5 xs:justify-center xl:justify-start'>
+                    <div className='flex sm:w-full lg:w-fit gap-5 xs:justify-center '>
                         <ALtButton title={"Let's talk!"} href={"#Contact"} />
                         <a className='download-link' href={`/Mohammed-Abdelsalhyen-CV.pdf`}> Download My CV</a>
                     </div>
