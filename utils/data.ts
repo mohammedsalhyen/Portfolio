@@ -3,7 +3,7 @@ import { Experience } from '../types';
 import { Project } from '../types';
 import { SkillType } from '../types';
 
-const API_BASE_URL = 'portfolio-backend-production-c334.up.railway.app';
+const API_BASE_URL = 'https://portfolio-backend-production-c334.up.railway.app';
 
 async function fetchData<T>(endpoint: string): Promise<T> {
   const res = await fetch(`${API_BASE_URL}/${endpoint}`);
