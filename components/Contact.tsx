@@ -30,7 +30,7 @@ const Contact = () => {
                             <input type='text' title='name' required onChange={(e)=>{setName(e.target.value); console.log(name)}} />
                             <label htmlFor='email'>Email Address</label>
                             <input type='email' title='email' required onChange={(e)=>setEmail(e.target.value)}/>
-                            <label htmlFor='message'>Email Address</label>
+                            <label htmlFor='message'>Message</label>
                             <textarea name='message' title='message' className=' max-h-[150px]' onChange={(e)=>setMessage(e.target.value)}></textarea>
                             <input type="submit" value="Let's Talk!"  className=' xs:w-[350px] md:w-[500px] link-text cursor-pointer bg-[var(--icon-theme-color-hover)] rounded-sm border-none py-5 relative left-[-25px] bottom-[-10px]' />
                         </form>
