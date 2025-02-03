@@ -16,7 +16,7 @@ const Hero = () => {
     ];
     return (
         <main className=' xs:px-5 xl:px-0 main-prop w-full border-b-2 border-[var(--border)]'>
-            <div className=' max-container flex  xs:flex-col xl:flex-row  justify-between   '>
+            <div className=' max-container flex  xs:flex-col lg:flex-row  justify-between   '>
                 <div className=' flex-1 relative overflow-hidden xs:text-center xl:text-start'>
                     <div>
                         <p className='sub-title mb-5'>Hi,</p>
@@ -28,7 +28,7 @@ const Hero = () => {
                         </p>
                         <p className='sub-title pt-5 mb-6'>Front end Developer</p>
                     </div>
-                    <div className='flex sm:w-full lg:w-fit gap-5 xs:justify-center '>
+                    <div className='flex sm:w-full lg:w-fit gap-5 xs:justify-center lg:justify-start'>
                         <ALtButton title={"Let's talk!"} href={"#Contact"} />
                         <a className='download-link' href={`/Mohammed-Abdelsalhyen-CV.pdf`}> Download My CV</a>
                     </div>
