@@ -1,7 +1,7 @@
 import React from "react";
 const About = () => {
   return (
-    <div className='main-prop  mx-auto  border-b-2 border-[var(--border)]'>
+    <div className='main-prop mx-10 border-b-2 border-[var(--border)]'>
       <div className='section-header mb-10 flex-center gap-2' id={"About"}>
         <p>About</p>
         <span>Me</span>
