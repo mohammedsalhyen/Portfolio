@@ -1,14 +1,7 @@
 import landing from "../public/animation/Landing.json";
 import Project from "../public/animation/Project.json";
 import eCommerce from "../public/animation/eCommerce.json";
-export const navbar_links = [
-    { name: "Home", href: "#Hero", key: "1" },
-    { name: "About me", href: "#About", key: "2" },
-    { name: "Specializing in", href: "#Specialize", key: "3" },
-    { name: "My Projects", href: "#Project", key: "4" },
-    { name: "Skill Sit", href: "#Skill", key: "5" },
-    { name: "My Experience", href: "#Experience", key: "6" }
-]
+
 
 export const Specialization = [
     { 
